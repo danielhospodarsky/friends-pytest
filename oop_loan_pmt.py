@@ -39,6 +39,14 @@ class Loan:
         
 
 def collectLoanDetails():
+    """
+    GIVEN a user enters the loan amount, year of loan and annual interest rate
+    WHEN these inputs are passed to this function
+    THEN the Loan is displayed
+    """
+    print("\r") 
+    print(" -- collectLoanDetails unit test")
+
     #loanAmount = float(100000)
     #numberYears = float(30)
     #annualRate = float(0.06)
@@ -51,6 +59,13 @@ def collectLoanDetails():
     
  
 def main():
+    """
+    GIVEN the loan details are collected
+    WHEN these inputs are passed through the collectLoanDetails function
+    THEN the monthly payment is accurately calculated
+    """
+    print("\r") 
+    print(" -- collectLoanDetails unit test")
     
     loan = collectLoanDetails() #set the variable equal to the return value (making an object)
     
